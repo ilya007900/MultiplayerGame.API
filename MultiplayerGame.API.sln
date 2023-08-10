@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplayerGame.API", "MultiplayerGame.API\MultiplayerGame.API.csproj", "{46FFED94-4F5A-42FE-8B28-41FA1C253632}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiplayerGame.API", "MultiplayerGame.API\MultiplayerGame.API.csproj", "{46FFED94-4F5A-42FE-8B28-41FA1C253632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplayerGame.Domain", "MultiplayerGame.Domain\MultiplayerGame.Domain.csproj", "{B63224FF-552F-461B-A627-1E33F0927465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplayerGame.Application", "MultiplayerGame.Application\MultiplayerGame.Application.csproj", "{9A2659ED-B6F5-4BE1-B2F0-07F18B05F1B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplayerGame.Infrastructure", "MultiplayerGame.Infrastructure\MultiplayerGame.Infrastructure.csproj", "{708FB727-B49A-4D41-A780-B43A46367EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplayerGame.Domain.Tests", "MultiplayerGame.Domain.Tests\MultiplayerGame.Domain.Tests.csproj", "{B0C37F12-DA40-412A-9719-CBA81358BCBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{46FFED94-4F5A-42FE-8B28-41FA1C253632}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46FFED94-4F5A-42FE-8B28-41FA1C253632}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46FFED94-4F5A-42FE-8B28-41FA1C253632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B63224FF-552F-461B-A627-1E33F0927465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63224FF-552F-461B-A627-1E33F0927465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63224FF-552F-461B-A627-1E33F0927465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63224FF-552F-461B-A627-1E33F0927465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A2659ED-B6F5-4BE1-B2F0-07F18B05F1B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A2659ED-B6F5-4BE1-B2F0-07F18B05F1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A2659ED-B6F5-4BE1-B2F0-07F18B05F1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A2659ED-B6F5-4BE1-B2F0-07F18B05F1B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708FB727-B49A-4D41-A780-B43A46367EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708FB727-B49A-4D41-A780-B43A46367EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708FB727-B49A-4D41-A780-B43A46367EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708FB727-B49A-4D41-A780-B43A46367EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C37F12-DA40-412A-9719-CBA81358BCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C37F12-DA40-412A-9719-CBA81358BCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C37F12-DA40-412A-9719-CBA81358BCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C37F12-DA40-412A-9719-CBA81358BCBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
